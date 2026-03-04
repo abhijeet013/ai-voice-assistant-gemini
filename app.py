@@ -21,7 +21,7 @@ customer_name = st.sidebar.text_input("Name")
 customer_id = st.sidebar.text_input("Customer ID")
 st.sidebar.markdown("---")
 
-# Sidebar - system health (fake but looks real)
+# Sidebar - system health 
 st.sidebar.header("⚙️ System Health")
 st.sidebar.success("Speech-to-Text: ✅ Active")
 st.sidebar.success("LLM (Gemini): ✅ Connected")
